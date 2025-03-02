@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1 bài 4 - Lý Bá Hưng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            border: 10px solid grey;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Basic info</h2>
+        <form id="basic">
+            <label for="">Employee ID</label>
+            <input type="text" value="9" disabled>
+
+            <label for="">Last Name</label>
+            <input type="text" value="Dodsworth" disabled>
+            
+            <label for="">Last Name</label>
+            <input type="text" value="Anne" required>
+
+            <label>Gender:</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+                <input type="radio" id="xxx" name="gender" value="XXX"><label for="xxx">XXX</label>
+                <input type="radio" id="zzz" name="gender" value="ZZZ" checked><label for="zzz">ZZZ</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
